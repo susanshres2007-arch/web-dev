@@ -1,9 +1,18 @@
-footer{
+/* CSS reset */
+* footer{
             background-color: #474797;
             height: 400px;
         }
 div.footer1{
-            background-color: rgb(125 13 13);
+            background-color: rgb(125, 13, 13);
             height: 200px;
             font-size: 45px;
         }
+div.padding12{
+            padding: 8px 16px 8px 14px;
+            margin: 32px;
+        }
+div.padding1{
+            padding: 12px 24px;
+        }
+        
