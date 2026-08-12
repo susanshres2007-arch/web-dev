@@ -1,0 +1,11 @@
+div.image-container{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+img.image{
+            width: 32%;
+            height: 200px;
+            object-fit: cover;
+        }
