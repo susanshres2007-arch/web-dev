@@ -1,0 +1,11 @@
+console.log("External script loaded successfully!");
+const x="joshangay"; 
+console.log(x);
+const a = 5;
+const b = 10;
+const sum = a + b;
+console.log("sum:",sum);
+const multiply = a * b;
+console.log("Product:",multiply);
+const remainder = a % b;
+console.log("Remainder:",remainder);
