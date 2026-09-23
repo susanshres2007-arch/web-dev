@@ -82,10 +82,10 @@
 
 //HOISTING AND SCOPING
 
-if (true) {
-    var p = 5;
-    let q = 10;
-}
-console.log('p',p);
-console.log('q',q);
+// if (true) {
+//     var p = 5;
+//     let q = 10;
+// }
+// console.log('p',p);
+// console.log('q',q);
 
