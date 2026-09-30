@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hanuman abc def"></div>
+    <div class="hanuman abc"></div>
+
+    <script>
+        const hanumans = document.querySelectorAll('.hanuman');
+        // hanuman.classList.remove('abc', 'def');
+        hanumans.forEach(hanuman => {
+            if(hanuman.classList.contains('def')) {
+                hanuman.classList.remove('abc');
+            }
+        })
+    </script>
+    <script src="js file/jsfile2.js"></script>
+</body>
+</html>
