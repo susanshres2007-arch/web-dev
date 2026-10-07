@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            background-color: red;
+            color: white;
+        }
+        img {
+            display : none
+        }
+        img.is-shown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo"></div>
+    <button id="btn" Button>Click me</button>
+    <div>
+    <img src="./image/yo.jpg" class="image" alt=" width=200px height=200px">
+    </div>
+    <script>
+        //const btn = document.getElementById('btn');
+        const btn = document.querySelector('#btn');
+        const demo = document.querySelector('#demo');
+
+        btn.addEventListener('click', function() {
+            //alert('button is clicked');
+            demo.innerHTML = 'Hello I am superman';
+            document.querySelector('img').classList.add('is-shown');
+        })
+         btn.addEventListener('mouseenter', function() {
+            btn.classList.add('btn');
+            document.querySelector('img').classList.add('is-shown');
+            
+        })
+        btn.addEventListener('mouseleave', function() {
+            btn.classList.remove('btn');
+            document.querySelector('img').classList.remove('is-shown');
+
+        })
+        console.log('btn');
+    </script>
+</body>
+</html>
